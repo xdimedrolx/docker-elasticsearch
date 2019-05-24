@@ -1,5 +1,5 @@
 IMAGE ?= xdimedrolx/elasticsearch
-LABEL ?= v6.8.0
+LABEL ?= 6.8.0
 
 .PHONY: all
 
