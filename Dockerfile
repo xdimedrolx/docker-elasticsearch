@@ -1,2 +1,3 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch:6.8.0
+ARG VERSION=latest
+FROM docker.elastic.co/elasticsearch/elasticsearch:$VERSION
 ADD --chown=elasticsearch:root config ./config
